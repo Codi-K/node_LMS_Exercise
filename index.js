@@ -2,7 +2,7 @@ const { writeFile, readFile, appendFile } = require('fs')
 
 writeFile("data.txt", "Karambit Blue ", "utf-8", (err) => {
   if (err) throw err;
-  console.log('The "Karambit Blue Gem" was written to file!');
+  console.log('The "Karambit Blue" was written to file!');
 });
 
 
